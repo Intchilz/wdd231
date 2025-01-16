@@ -1,11 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WDD 231 - Web Frontend Development I" />
+  <meta name="author" content="Louis Chilumba" />
+  <title>Course Home page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital@0;1&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script src="scripts/nav.js" defer></script>
+  <script src="scripts/footer.js" defer></script>
+  <script src="scripts/courses.js" defer></script>
+
 </head>
+
 <body>
-    howdy
+
+  <header class="header">
+    <div class="flex-container justify-center">
+        
+      <div class="header__title">
+        <img src="images/Louis Chilumba.webp" alt="" loading="lazy">
+        <h1>Louis Chilumba</h1>
+      </div>
+      <div class="header__title" id="hamburger-btn">
+        ☰
+      </div>
+    </div>
+    <nav class="header__nav">
+      <a class="header__nav-item" href="./index.html">Home</a>
+      <a class="header__nav-item" href="./index.html">Chamber</a>
+      <a class="header__nav-item" href="https://github.com/Intchilz/wdd231">Github profile</a>
+      <a class="header__nav-item" href="https://www.linkedin.com/in/louis-chilumba-b7a5421b6/">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="grid-container">
+      <section class="card cols-8">
+        <div class="card__header">
+          <h2 class="card__title text-large center">
+            Course Work
+          </h2>
+        </div>
+        <div class="card__body">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card cols-4">
+        <div class="card__header">
+          <h2 class="card__title text-large center">
+            Kitwe, Copperbelt, Zambia
+          </h2>
+        </div>
+        <div class="card__body">
+          <div class="card__image">
+            <img src="./images/kitwe2.webp" alt="Kitwe, Zambia">
+            <p class="text-small text-center">Kitwe City, Zambia</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card cols-12">
+        <div class="card__header">
+          <h2 class="card__title text-large center">
+            Web and Computer Programming Certificate
+          </h2>
+        </div>
+        <div class="card__body">
+          <div class="flex-container justify-center flex-wrap" id="courses-container">
+            <!--Rendered by JavaScript-->
+          </div>
+        </div>
+        <div class="card__footer">
+          <div class="grid-container" id="course-codes-container">
+            <!--Rendered by JavaScript-->
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer" id="footer">
+  </footer>
 </body>
+
 </html>
