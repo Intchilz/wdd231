@@ -10,14 +10,14 @@
     "industry": "Civil Engineering & Technology"
   },
   {
-    "name": "Eco Solutions LLC",
-    "address": "456 Green Way, Portland, OR",
-    "phone": "+1-800-555-5678",
-    "website": "https://ecosolutions.com",
-    "image": "eco_solutions.jpeg",
+    "name": "Levant Biotech Company Limited",
+    "address": "Lusaka, Zambia",
+    "phone": "+260 966 954 630",
+    "website": "levantbiotech.com",
+    "image": "levant.webp",
     "membershipLevel": 2,
-    "description": "Sustainable energy and eco-friendly products company.",
-    "industry": "Renewable Energy"
+    "description": "Medical and Pharmaceutical Products",
+    "industry": "Health"
   },
   {
     "name": "Health First Corp.",
