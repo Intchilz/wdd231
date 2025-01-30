@@ -1,0 +1,140 @@
+/*****************************************************************************/
+/* Display
+/*****************************************************************************/
+.display\:flex {
+  display: flex;
+}
+
+.display\:none {
+  display: none;
+}
+
+/*****************************************************************************/
+/* Flex Container
+/*****************************************************************************/
+.flex\:dir\:column {
+  flex-direction: column;
+}
+
+.flex\:dir\:row {
+  flex-direction: row;
+}
+
+.flex\:justify\:center {
+  justify-content: center;
+}
+
+.flex\:grow {
+  flex-grow: 1;
+}
+
+/*****************************************************************************/
+/* Spacing
+/*****************************************************************************/
+.margin\:y\:base {
+  margin-block: var(--xjumbo);
+}
+
+.margin\:y\:large {
+  margin-block: var(--large);
+}
+
+.margin\:y\:medium {
+  margin-block: var(--medium);
+}
+
+.margin\:x\:auto {
+  margin-inline: auto;
+}
+
+.width\:90\% {
+  width: 90%;
+}
+
+.width\:max {
+  width: 100%;
+}
+
+.line\:height\:base {
+  line-height: var(--base);
+}
+
+.line\:height\:medium {
+  line-height: var(--medium);
+}
+
+.line\:height\:large {
+  line-height: var(--large);
+}
+
+.padding\:base {
+  padding: var(--base);
+}
+
+.border\:radius\:base {
+  border-radius: var(--base);
+}
+
+/*****************************************************************************/
+/* grid
+/*****************************************************************************/
+.grid\:span\:2 {
+  grid-column: span 2;
+}
+
+.grid\:span\:3 {
+  grid-column: span 3;
+}
+
+/*****************************************************************************/
+/* Colors 
+/*****************************************************************************/
+.bg\:primary {
+  background-color: var(--color-primary);
+}
+
+.font\:color\:primary {
+  color: var(--color-primary);
+}
+
+.font\:color\:secondary {
+  color: var(--color-secondary);
+}
+
+.bg\:secondary {
+  background-color: var(--color-secondary);
+}
+
+/*****************************************************************************/
+/* Font
+/*****************************************************************************/
+.font\:bold {
+  font-weight: bold;
+}
+
+.font\:size\:medium {
+  font-size: var(--medium);
+}
+
+.font\:size\:large {
+  font-size: var(--large);
+}
+
+.font\:size\:xlarge {
+  font-size: var(--xlarge);
+}
+
+.font\:size\:jumbo {
+  font-size: var(--jumbo);
+}
+
+.font\:size\:xjumbo {
+  font-size: var(--xjumbo);
+}
+
+/*****************************************************************************/
+/* Text 
+/*****************************************************************************/
+.text\:center {
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Hamms Engineering Limited",
+    "address": "Plot 21-13 Avenue Nkana East, Kitwe, Zambia.",
+    "phone": "+260 212 226 117",
+    "website": "https://techinnovators.com",
+    "image": "hamms-logo.jpg",
+    "membershipLevel": 3,
+    "description": "Engineering the Future.",
+    "industry": "Civil Engineering & Technology"
+  },
+  {
+    "name": "Eco Solutions LLC",
+    "address": "456 Green Way, Portland, OR",
+    "phone": "+1-800-555-5678",
+    "website": "https://ecosolutions.com",
+    "image": "eco_solutions.jpeg",
+    "membershipLevel": 2,
+    "description": "Sustainable energy and eco-friendly products company.",
+    "industry": "Renewable Energy"
+  },
+  {
+    "name": "Health First Corp.",
+    "address": "789 Wellness Avenue, Austin, TX",
+    "phone": "+1-800-555-9101",
+    "website": "https://healthfirst.com",
+    "image": "health_first.jpg",
+    "membershipLevel": 1,
+    "description": "Dedicated to improving health and wellness worldwide.",
+    "industry": "Healthcare"
+  },
+  {
+    "name": "FinTech Innovations",
+    "address": "101 FinTech Road, New York, NY",
+    "phone": "+1-800-555-1122",
+    "website": "https://fintechinnovations.com",
+    "image": "fintech_innovations.png",
+    "membershipLevel": 3,
+    "description": "Pioneers in financial technology and digital banking.",
+    "industry": "Financial Technology"
+  },
+  {
+    "name": "Globe Travelers",
+    "address": "202 Adventure Lane, Miami, FL",
+    "phone": "+1-800-555-3344",
+    "website": "https://globetravelers.com",
+    "image": "globe_travelers.jpg",
+    "membershipLevel": 2,
+    "description": "Top-tier travel agency offering unique global experiences.",
+    "industry": "Travel and Tourism"
+  },
+  {
+    "name": "EduGrow Academy",
+    "address": "303 Knowledge Blvd, Boston, MA",
+    "phone": "+1-800-555-5566",
+    "website": "https://edugrowacademy.com",
+    "image": "edugrow_academy.png",
+    "membershipLevel": 1,
+    "description": "Online learning platform for personal and professional growth.",
+    "industry": "Education"
+  },
+  {
+    "name": "AutoPro Mechanics",
+    "address": "404 Motor Drive, Detroit, MI",
+    "phone": "+1-800-555-7788",
+    "website": "https://autopromechanics.com",
+    "image": "autopro_mechanics.jpeg",
+    "membershipLevel": 3,
+    "description": "Experts in auto repair and maintenance services.",
+    "industry": "Automotive"
+  }
+]
