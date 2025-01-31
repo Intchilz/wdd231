@@ -1,7 +1,7 @@
 [
   {
     "name": "Hamms Engineering Limited",
-    "address": "sales@hamms.co.zm",
+    "address": "Plot 21-13 Avenue Nkana East, Kitwe, Zambia.",
     "phone": "+260 212 226 117",
     "website": "hamms.co.zm",
     "image": "hamms-logo.jpg",
@@ -17,17 +17,17 @@
     "image": "levant.webp",
     "membershipLevel": 2,
     "description": "Medical and Pharmaceutical Products",
-    "industry": "Health"
+    "industry": "Healthcare"
   },
   {
-    "name": "Health First Corp.",
-    "address": "789 Wellness Avenue, Austin, TX",
-    "phone": "+1-800-555-9101",
-    "website": "https://healthfirst.com",
-    "image": "health_first.jpg",
+    "name": "HRLeverage Zambia Limited",
+    "address": "Lusaka, Zambia",
+    "phone": "+260 955 254 565",
+    "website": "hrleveragezambia.com",
+    "image": "hrleverage.webp",
     "membershipLevel": 1,
-    "description": "Dedicated to improving health and wellness worldwide.",
-    "industry": "Healthcare"
+    "description": "Media Solutins",
+    "industry": "Media Solutions"
   },
   {
     "name": "FinTech Innovations",
