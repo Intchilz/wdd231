@@ -30,43 +30,43 @@
     "industry": "Media Solutions"
   },
   {
-    "name": "FinTech Innovations",
-    "address": "101 FinTech Road, New York, NY",
-    "phone": "+1-800-555-1122",
-    "website": "https://fintechinnovations.com",
-    "image": "fintech_innovations.png",
+    "name": "Land Pro Investments Limited",
+    "address": "Ndola, Zambia",
+    "phone": "+260 974 456 327",
+    "website": "landproinv.com",
+    "image": "landpro.jpeg",
     "membershipLevel": 3,
-    "description": "Pioneers in financial technology and digital banking.",
-    "industry": "Financial Technology"
+    "description": "Real Estate Agency",
+    "industry": "Real Estate"
   },
   {
-    "name": "Globe Travelers",
-    "address": "202 Adventure Lane, Miami, FL",
-    "phone": "+1-800-555-3344",
-    "website": "https://globetravelers.com",
-    "image": "globe_travelers.jpg",
+    "name": "Hitachi Construction Machinery Zambia",
+    "address": "Lusaka, Zambia",
+    "phone": "+260 963 366 787",
+    "website": "hcmaf.com",
+    "image": "HITACHI.jpg",
     "membershipLevel": 2,
-    "description": "Top-tier travel agency offering unique global experiences.",
-    "industry": "Travel and Tourism"
+    "description": "Construction Machinery",
+    "industry": "Construction Machinery"
   },
   {
-    "name": "EduGrow Academy",
-    "address": "303 Knowledge Blvd, Boston, MA",
-    "phone": "+1-800-555-5566",
-    "website": "https://edugrowacademy.com",
-    "image": "edugrow_academy.png",
+    "name": "Nkumbi Logistics Ltd",
+    "address": "Lusaka, Zambia",
+    "phone": "+260 969 313 912",
+    "website": "company.com",
+    "image": "Nkumbi.jpg",
     "membershipLevel": 1,
-    "description": "Online learning platform for personal and professional growth.",
-    "industry": "Education"
+    "description": "Connecting you to your destination",
+    "industry": "Logistics"
   },
   {
-    "name": "AutoPro Mechanics",
-    "address": "404 Motor Drive, Detroit, MI",
-    "phone": "+1-800-555-7788",
-    "website": "https://autopromechanics.com",
-    "image": "autopro_mechanics.jpeg",
+    "name": "SGC INVESTMENTS LIMITED",
+    "address": "Ndola, Zambia P.O Box 230135",
+    "phone": "+260 765 991 112",
+    "website": "sgcil.com",
+    "image": "SGC.webp",
     "membershipLevel": 3,
-    "description": "Experts in auto repair and maintenance services.",
-    "industry": "Automotive"
+    "description": "Oil Marketing Company",
+    "industry": "Oil Marketing Company"
   }
 ]
