@@ -1,0 +1,147 @@
+/* Resetting default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  header a h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  header, a, h1 {
+    text-decoration:none;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  #searchBar {
+    padding: 12px;
+    width: 70%;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #searchButton {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #2c3e50;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #1abc9c;
+  }
+  
+  /* Main content styling */
+  main {
+    padding: 20px;
+  }
+  
+  .results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .recipe-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-card h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .recipe-detail {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #backButton {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #backButton:hover {
+    background-color: #2c3e50;
+  }
+  
+  /* Accessibility - Focus Styles */
+  button:focus, input:focus {
+    outline: 3px solid #1abc9c;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    #searchBar {
+      width: 80%;
+    }
+  
+    .results-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  

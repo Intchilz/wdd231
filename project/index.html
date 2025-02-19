@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><h1>Louis's Recipe Finder</h1></a>
+    <div class="search-container">
+      <input type="text" id="searchBar" placeholder="Search for recipes..." aria-label="Search for recipes">
+      <button id="searchButton" aria-label="Search">🔍</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="results" class="results-container">
+      <!-- Recipe Cards will go here -->
+    </div>
+
+    <div id="recipeDetail" class="recipe-detail" hidden>
+        <button id="backButton">Back to Results</button>
+        <div id="recipeInfo"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Louis's Recipe Finder. WDD231 Project.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
